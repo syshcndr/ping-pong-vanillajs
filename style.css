@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* to perfectly center any element (next 3 lines) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.board{
+    height: 85vh;
+    width: 80vw;
+    background-color: burlywood;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.ball{
+    height: 40px;
+    width: 40px;
+    /* to make circle in css (below line) */
+    border-radius: 50%;
+    background-color: yellow;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+}
+
+.paddle{
+    background-color: black;
+    height: 120px;
+    width: 15px;
+    position: fixed;
+    border-radius: 2px;
+}
+
+.left{
+    top: 40vh;
+    left: 30vh;
+}
+
+.right{
+    top: 40vh;
+    left: 165vh;
+}
